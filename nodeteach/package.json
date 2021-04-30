@@ -1,0 +1,9 @@
+{
+  "name": "nodeteach",
+  "version": "0.0.0",
+  "description": "nodeteach",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
