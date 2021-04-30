@@ -1,0 +1,3 @@
+D:\AI\Project\nodeteach\nodeteach\obj\Debug\nodeteach.njsprojAssemblyReference.cache
+D:\AI\Project\nodeteach\nodeteach\obj\Debug\nodeteach.njsproj.CoreCompileInputs.cache
+D:\AI\Project\nodeteach\nodeteach\bin\Microsoft.NodejsTools.WebRole.dll
