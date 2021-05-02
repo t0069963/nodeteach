@@ -37,7 +37,7 @@
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="views\errpr.ejs">
+    <Content Include="views\error.ejs">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\index.ejs">
