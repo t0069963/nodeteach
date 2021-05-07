@@ -1,0 +1,42 @@
+1.將views下的檔案做分類
+2.新增一個資料夾名稱為pages並把網頁放置裡面
+
+
+
+
+
+
+3.因為有修改路徑所以server.js內的路徑也需要改
+4.在views資料夾底下新增一個資料夾名稱為partials 並加入檔名為 head.ejs style.ejs scripts.ejs 的空白檔案
+
+
+5.在 head.ejs內新增往頁title和 指定編碼
+6.在 style.ejs內新增boottstrap樣式表
+7.在 scripts.ejs內新增jQuery程式庫 和 boottstrap程式庫 ex:jQuery程式庫 必須在  boottstrap程式庫前面 原因是因為boottstrap程式庫相依jQuery程式庫 
+8.在index.ejs head標籤 內嵌入head.ejs 和 styles.ejs
+9.在index.ejs body標籤內嵌入scripts.ejs
+10.安裝bootstrap 額外延伸模組包 點擊延伸模組-->管理延伸模組
+
+11.搜尋bootstrap 並安裝bootsrap Snippet Pack
+12.在index.ejs body標籤內右鍵-->插入程式碼片段
+13.選擇Bootstrap
+
+14.選擇Carousel
+15.輸入nodemon server or node server並按下Enter鍵
+
+16.完成後畫面
+
+
+補充:
+如果程式碼片段找不到 那要複製ASP.NET.Web Foms程式碼片段到HTML路徑
+1.工具-->程式碼片段管理員
+2.語言選擇ASP.NET.Web Foms點選Bootstrap 把路徑複製下來
+
+
+3.語言選擇HTML 點選HTML 按下加入並把路徑貼上去
+
+
+
+
+
+

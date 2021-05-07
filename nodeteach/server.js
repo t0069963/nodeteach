@@ -18,20 +18,22 @@ app.set('view engine', 'ejs');
 app.use('/', router);
 
 //////
-
+//網址列路徑為 / 則回傳views/index.ejs ex:http://localhost:1337/
 router.get('/', function (req, res) {
-    res.render("index")
+    res.render("pages/index")
 });
 
-
+//網址列路徑為/about 則回傳views/about.ejs ex:http://localhost:1337/about
 router.get('/about', function (req, res) {
-    res.render("about")
+    res.render("pages/about")
 });
 
 
-
+//網址列路徑為以上之外 則傳回views/error ex:http://localhost:1337/*
 app.get('*', function (req, res) {
-    res.render("error")
+    res.render("pages/error")
 });
+//監聽指定端口
 app.listen(port);
+//在螢幕上呈現port值
 console.log(`server listening on:${port}`);

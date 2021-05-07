@@ -37,19 +37,18 @@
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="views\error.ejs">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="views\index.ejs">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="views\about.ejs">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="views\pages\about.ejs" />
+    <Content Include="views\pages\error.ejs" />
+    <Content Include="views\pages\index.ejs" />
+    <Content Include="views\paritals\head.ejs" />
+    <Content Include="views\paritals\scripts.ejs" />
+    <Content Include="views\paritals\styles.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="views\" />
     <Folder Include="routes\" />
+    <Folder Include="views\pages\" />
+    <Folder Include="views\paritals\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
